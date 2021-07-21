@@ -28,3 +28,13 @@ Ralizar o desenvolvimento de um lading page proposta pela Vnda como wireframe.
 :heavy_check_mark: Sass utilzado, porem não consegui entender a finalidade do Gulp para implementar ela no desafio
 
 :heavy_check_mark: Pastas criadas, porem não entendo como deve ser separados os arquivos, portanto fiz como achei correto
+
+# A Vnda
+
+Gostaria de agradecer a oportunidade, e se possivel o auxilio de alguem para saber como faria o responsivo do site.
+
+Acho que se eu fizesse parte do time da Vnda conseguiria tirar algumas duvidas ou ganhar dicas e passar para o proximo nivel!
+
+Tive alguns contra tempos ao longo da semana que foi proposto o desafio, acabei conseguindo somente 2 dias para faze-lo. Porem fiquei satisfeito com o resultado.
+
+
