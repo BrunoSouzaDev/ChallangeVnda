@@ -1,0 +1,134 @@
+@import 'base';
+
+.separator {
+  font-size: 40px;
+  color: $light-gray;
+
+  margin: 32px 0;
+  display: flex;
+  align-items: center;
+
+  &::before {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: $light-gray;
+    margin-right: 16px;
+  }
+
+  &::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: $light-gray;
+    margin-left: 16px;
+  }
+
+}
+
+.footer {
+  background-image: url(/src/img/7.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  position: relative;
+  z-index: 1;
+
+  &::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.6;
+    z-index: -1;
+  }
+
+  .footer-item {
+    width: calc(100% / 3);
+    padding: 0 15px;
+    text-align: center;
+    color: $text-color;
+
+    h3 {
+      text-transform: capitalize;
+      font-size: 22px;
+      margin: 0 0 15px;
+    }
+
+    a {
+      text-decoration: none;
+      color: $text-color;
+      margin: 0 20px;
+      line-height: 30px;
+    }
+
+    .social-links {
+      font-size: 20px;
+
+      p {
+        margin-left: 15px;
+
+      }
+
+      a {
+        display: inline-flex;
+        height: 40px;
+        width: 40px;
+        color: $text-color;
+        align-items: center;
+        justify-content: center;
+        transition: color 0.3s ease;
+
+        &:hover {
+          color: $dim-gray;
+        }
+      }
+    }
+  }
+
+  .copyright {
+    margin: 80px 0 0;
+    width: 100%;
+    text-align: center;
+    color: $text-color;
+    padding: 25px 15px;
+    font-size: 14px;
+    border-top: 1px solid $text-color;
+  }
+}
+
+.input-group {
+  position: relative;
+
+  .field {
+    background: transparent;
+    border: none;
+    width: 27rem;
+    font-size: 1.5rem;
+    border-bottom: 1px dashed $light-gray;
+    height: 3rem;
+    outline: none;
+    margin: 2rem 0;
+
+    &:focus {
+      border-bottom: 1px solid $light-gray;
+
+      &~label {
+        top: 0;
+        font-size: 1rem;
+      }
+    }
+  }
+
+  .field-label {
+    position: absolute;
+    left: 0;
+    top: 3rem;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    transition: all 0.3s;
+  }
+}
