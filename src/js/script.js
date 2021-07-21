@@ -1,3 +1,4 @@
+AOS.init();
 
 // toggle navbar
 const navToggler = document.querySelector(".nav-toggler");
@@ -25,3 +26,7 @@ const swiper = new Swiper('.swiper-container', {
     prevEl: '.swiper-button-prev',
   },
 });
+
+
+
+

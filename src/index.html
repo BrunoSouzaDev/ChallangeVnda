@@ -10,6 +10,7 @@
 	<link rel="stylesheet" href="styles/main.css">
 	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
 	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
 
@@ -25,11 +26,11 @@
 				</button>
 				<nav class="nav">
 					<ul>
-						<li><a href="#">Home</a></li>
+						<li><a href="#home">Home</a></li>
 						<li><a href="#product">Product</a></li>
-						<li><a href="#">Serviços</a></li>
-						<li><a href="#">Projetos</a></li>
-						<li><a href="#">Contato</a></li>
+						<li><a href="#store">Store</a></li>
+						<li><a href="#media">Media</a></li>
+						<li><a href="#contact">Contato</a></li>
 					</ul>
 				</nav>
 				<nav class="nav">
@@ -49,44 +50,32 @@
 		<div class="banner-img">
 		<div class="container">
 			<div class="row align-items-center">
-					<div class="home-content">
+					<div class="home-content" data-aos="fade-up">
 						<h4>Iluminando vidas</h4>
 						<h1>Iluminia</h1>
 					</div>
 				</div>
 		</div>
 	</div>
-		<div class="container container-bubble">
-			<div class="row justify-content-between align-items-center">
-					<div class="bubble b1">
-						<div class="bubble-info">
-							<p>Projetos</p>
-						</div>
+		<div class="container container-bubble" >
+					<div class="bubble b1" data-aos="fade-up">
+						<img src="/src/img/2.jpg" alt="">							
 					</div>
-					<div class="bubble b2">
-						<div class="bubble-info">
-							<p>Design</p>
-						</div>
+					<div class="bubble b2" data-aos="fade-up">
+						<img src="/src/img/3.jpg" alt="">							
 					</div>
-					<div class="bubble b3">
-						<div class="bubble-info">
-							<p>Moderno</p>
-						</div>
+					<div class="bubble b3" data-aos="fade-up">
+						<img src="/src/img/4.jpg" alt="">							
 					</div>
-					<div class="bubble b4">
-						<div class="bubble-info">
-							<p>Luxo</p>
-						</div>
+					<div class="bubble b4" data-aos="fade-up">
+						<img src="/src/img/5.jpg" alt="">
+							
 					</div>
-					<div class="bubble b5">
-						<div class="bubble-info">
-							<p>Custom</p>
-						</div>
+					<div class="bubble b5" data-aos="fade-up">
+						<img src="/src/img/6.jpg" alt="">
 					</div>
-					<div class="bubble b6">
-						<div class="bubble-info">
-							<p>Clasico</p>
-						</div>
+					<div class="bubble b6" data-aos="fade-up">
+						<img src="/src/img/7.jpg" alt="">
 					</div>
 			</div>
 		</div>
@@ -97,7 +86,7 @@
 	<section class="product-section section-padding" id="product">
 		<div class="container">
 		<div class="banner">
-			<div class="banner-info">
+			<div class="banner-info" data-aos="fade-up">
 				<h6>Lorem ipsum lorem dolor</h6>
 				<h2>Lorem ipsum
 					dolor sit amet</h2>
@@ -111,7 +100,7 @@
 			</div>
 
 			<div class="banner-cards">
-				<div class="card1">
+				<div class="card1" data-aos="fade-left">
 					<div class="card-img">
 						<div class="card-info">
 							<h4>Título do banner</h4>
@@ -121,7 +110,7 @@
 					</div>
 					
 				</div>
-				<div class="card2">
+				<div class="card2" data-aos="fade-left">
 					<div class="card-img">
 						<div class="card-info">
 							<h4>Título do banner</h4>
@@ -131,7 +120,7 @@
 					</div>
 				</div>
 				
-				<div class="card3">
+				<div class="card3" data-aos="fade-left">
 					<div class="card-img">
 						<div class="card-info">
 							<h4>Título do banner</h4>
@@ -142,7 +131,7 @@
 				</div>
 			</div>
 			<!-- scroll down -->
-				<a href="#" class="scroll-down">
+				<a href="#" class="scroll-down" data-aos="fade-up">
 					<img src="/src/img/icon/arrowdown.svg" alt="">
 				</a>
 				<!-- scroll -->
@@ -154,11 +143,11 @@
 	<!-- product section end -->
 
 	<!-- store section start -->
-	<section class="store-section section-padding">
+	<section class="store-section section-padding" id="store">
 		<div class="container">
 			<div class="banner-store">
-				<div class="img-store"></div>
-				<div class="info-store">
+				<div class="img-store" data-aos="fade-right"></div>
+				<div class="info-store" data-aos="fade-up">
 				<h6>Lorem ipsum lorem dolor</h6>
 				<h2>Lorem ipsum
 					dolor sit amet</h2>
@@ -179,7 +168,7 @@
 			</div>
 			</div>
 			<!-- Slider main container -->
-				<div class="swiper-container">
+				<div class="swiper-container" data-aos="fade-left">
 					<!-- Additional required wrapper -->
 					<div class="swiper-wrapper">
 						<!-- Slides -->
@@ -205,12 +194,12 @@
 	<!-- store section end -->
 
 	<!-- social media start -->
-	<section class="social-section">
+	<section class="social-section" id="media">
 		<div class="instadamarca">
 			<h1>@instadamarca</h1>
 		</div>
 		<div class="container social-container">
-			<div class="card">
+			<div class="card" data-aos="flip-up" data-aos-duration="1000">
 				<div class="imgBx">
 					<img src="/src/img/20.jpg">
 				</div>
@@ -227,7 +216,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="card">
+			<div class="card" data-aos="flip-up" data-aos-duration="1500">
 				<div class="imgBx">
 					<img src="/src/img/19.jpg">
 				</div>
@@ -244,7 +233,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="card">
+			<div class="card" data-aos="flip-up" data-aos-duration="1000">
 				<div class="imgBx">
 					<img src="/src/img/18.jpg">
 				</div>
@@ -266,8 +255,8 @@
 	<!-- social media end -->
 
   <!-- footer start -->
-  <footer class="footer" id="footer">
-		<div class="separator">ILUMINIA</div>
+  <footer class="footer" id="footer" id="contact">
+		<div class="separator" data-aos="fade-up">ILUMINIA</div>
 		<div class="container">
 				<div class="row">
 						<div class="footer-item" data-aos="fade-up">
@@ -308,6 +297,7 @@
 	
 	<script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
 	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script src="js/script.js"></script>
 </body>
 </html>

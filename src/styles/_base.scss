@@ -25,6 +25,20 @@ body {
   line-height: 1.5;
   background-color: $light-gray;
   overflow-x: hidden;
+
+  &::-webkit-scrollbar-track {
+    box-shadow: $dim-gray;
+    background-color: transparent;
+  }
+
+  &::-webkit-scrollbar {
+    width: 5px;
+    background-color: $light-gray;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: $jet-color;
+  }
 }
 
 .container {
@@ -127,15 +141,3 @@ section {
     bottom: 100%;
   }
 }
-
-// @keyframes zoomInOut {
-
-//   0%,
-//   100% {
-//     transform: scale(1);
-//   }
-
-//   50% {
-//     transform: scale(1.1);
-//   }
-// }
